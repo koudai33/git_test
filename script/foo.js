@@ -24,4 +24,15 @@ let fruits = {
   },
 };
 
+function stopCar(speed) {
+  return speed <= 60;
+}
+
+function alertStopCor(speed) {
+  if (speed >= 60) {
+    alert("STOP!!");
+  }
+}
+stopCar(50);
+
 export default fruits;
