@@ -1,5 +1,7 @@
 import fruits from "./foo";
 
+document.write("helo");
+
 window.console.log();
 window.alert();
 window.document.getElementById();
