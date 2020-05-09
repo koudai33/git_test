@@ -1,3 +1,5 @@
+export default fruits;
+
 let fruits = {
   list: {
     summer: {
@@ -35,4 +37,30 @@ function alertStopCor(speed) {
 }
 stopCar(50);
 
-export default fruits;
+function unfollow() {
+  console.log("ad");
+}
+
+function cancelTweet() {
+  console.log("hogehoge");
+}
+
+function confirmew(fn) {
+  if (window.confirm("実行しますか")) {
+  }
+}
+
+confirmew(unfollow);
+
+function confirmed(fnc) {
+  const input = window.prompt("実行しますか");
+  if (input === "実行") {
+    fn();
+  }
+}
+
+confirmed(function () {
+  console.log("削除");
+});
+
+document.write("hello");
