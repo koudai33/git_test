@@ -1,6 +1,9 @@
 div {
   background-color: rgba(224, 224, 102, 0.432);
-  font-size: 2rem;
   width: calc(100% / 3);
   margin: 30px 50px 70px 10px; /*時計*/
+}
+
+.title {
+  background-color: rgba(139, 110, 105, 0.411);
 }
