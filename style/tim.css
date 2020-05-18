@@ -1,0 +1,11 @@
+.normal {
+  background-color: chartreuse;
+}
+.box {
+  background-color: rgba(184, 131, 93, 0.568);
+  height: 200px;
+  width: 200px;
+  padding: 10px 30px 6px 9px;
+  border: 10px solid rgba(120, 158, 194, 0.658);
+  box-sizing: border-box;
+}
