@@ -1,6 +1,6 @@
-div {
-  width: calc(100% / 3);
-  margin: 30px 50px 70px 10px; /*時計*/
+html {
+  margin-left: 20px;
+  /* box-sizing: border-box; */
 }
 
 .title {
@@ -18,4 +18,26 @@ article p:nth-of-type(2) {
 
 p:hover:nth-of-type(3) {
   background-color: rgba(177, 111, 30, 0.705);
+}
+p:nth-of-type(0) {
+  padding-top: 50px;
+}
+
+.container {
+  width: 500px;
+  background-color: coral;
+  display: flex;
+}
+
+.item {
+  height: 200px;
+}
+
+.item1 {
+  background-color: pink;
+  flex: 1;
+}
+.item2 {
+  background-color: skyblue;
+  flex: 2;
 }
