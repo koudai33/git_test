@@ -39,6 +39,15 @@
         <div class="item item1">item1</div>
         <div class="item item2">item2</div>
       </div>
+      <p id="myid">こんにちは！</p>
+      <input type="button" value="Click" onclick="myfunc()" />
+
+      <script>
+        var myfunc = function () {
+          var myp = document.getElementById("myid");
+          myp.innerHTML = "こんばんは！";
+        };
+      </script>
     </main>
     <footer>
       @ 2020 sample.html
