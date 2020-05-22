@@ -23,5 +23,49 @@
       <li>Web: <a href="https://www.google.com">gogogo</a></li>
       <li>Tel: 123 45678</li>
     </ul>
+    <script>
+      var greet = function () {
+        document.write("実は");
+      };
+      greet();
+      /// for (var p in document) {
+      //   document.write(p + "<br>");
+      // }
+
+      var peop = new Object();
+
+      peop.name = "山本";
+      peop.food = "とうもろこし";
+      peop.gooo = function () {
+        document.write("私は");
+      };
+
+      peop.gooo();
+      /*返り値 function*/
+      var old = window.prompt("年齢を入力してください", "数字を入力");
+
+      // function display(a, b) {
+      //   return a * b;
+      // }
+
+      document.write(old + "歳");
+
+      var result = confirm("男性ですか");
+      if (result == true) {
+        document.write("男性です");
+      } else {
+        if (result == false) {
+          document.write("男性ではありません");
+        }
+      }
+
+      function hito(name, old) {
+        this.name = name;
+        this.old = old;
+      }
+
+      var tanaka = new hito("田中 ", "22");
+      document.write(tanaka.name);
+    </script>
   </body>
 </html>
